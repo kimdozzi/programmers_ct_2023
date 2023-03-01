@@ -17,13 +17,11 @@ public class Tests {
     void t2() {
         assertThat(new Solution().solution(91)).isEqualTo(3);
     }
-
     @Test
     @DisplayName("92도가 입력되었을 때의 결과는 3")
     void t3() {
         assertThat(new Solution().solution(92)).isEqualTo(3);
     }
-
     @Test
     @DisplayName("180도가 입력되었을 때의 결과는 4")
     void t4() {
