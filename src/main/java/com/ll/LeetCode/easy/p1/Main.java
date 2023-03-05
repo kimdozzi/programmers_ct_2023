@@ -1,4 +1,4 @@
-package com.ll.LeetCode.p1;
+package com.ll.LeetCode.easy.p1;
 
 public class Main {
     class Solution {

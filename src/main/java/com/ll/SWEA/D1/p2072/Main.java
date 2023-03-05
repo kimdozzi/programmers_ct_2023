@@ -1,4 +1,4 @@
-package com.ll.SWEA.p2072;
+package com.ll.SWEA.D1.p2072;
 
 import java.io.BufferedReader;
 import java.io.IOException;
