@@ -29,7 +29,6 @@ public class Main {
                 graph[v].add(u);
             }
         }
-
     }
     static void pro() {
         Queue<Integer> q = new LinkedList<>();
@@ -43,11 +42,6 @@ public class Main {
                 visit[y] = true;
             }
         }
-
-//        for(int i = 0; i < visit.length; i++){
-//            System.out.print(visit[i] + " ");
-//        }
-
         boolean flag = visit[1];
         for(int i = 2; i < visit.length; i++) {
             if(visit[i] != flag) {
