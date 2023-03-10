@@ -11,10 +11,7 @@ public class Tests {
     @Test
     @DisplayName("")
     void t1() {
-
     }
-
-
     @Test
     @DisplayName("91도가 입력되었을 때의 결과는 3")
     void t2() {
