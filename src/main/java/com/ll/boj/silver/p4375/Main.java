@@ -5,19 +5,15 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        StringBuilder sb = new StringBuilder();
-        while (true) {
-            sb.append("1");
-            int cnt = 1;
-            while (true) {
-                int n = sc.nextInt();
-                if(Integer.parseInt(sb.toString())%n == 0) {
-                    System.out.println(cnt);
+        while (sc.hasNextInt()) {
+            int num = 0;
+            int n = sc.nextInt();
+            for(int i = 1; ; i++) {
+                num = num * 10 + 1;
+                num = num % n;
+                if(num == 0) {
+                    System.out.println(i);
                     break;
-                }
-                else {
-                    cnt++;
-                    sb.append("1");
                 }
             }
         }
